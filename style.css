@@ -1,5 +1,5 @@
 ul{
-    background: gray;
+    background:#f5e5e55e;
     list-style: none;
     padding: 0;
 }
@@ -9,7 +9,8 @@ ul li{
 }
 
 ul span{
-    font-weight: bold;
+    font-weight: 600;
+    color: #98824b;
 }
 
 
@@ -20,12 +21,12 @@ ul li ul{
 ul li ul li{
     margin-bottom: 5px;
     padding: 3px;
-    border: 1px solid lightgray;
+    border: 1px solid #e91ea1;
     margin-left: 40px;
 }
 
 ul li ul li a{
-    color: darkgreen;
+    color: #922909;
     text-decoration: none;
 
 }
