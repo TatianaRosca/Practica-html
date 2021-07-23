@@ -1,16 +1,56 @@
-ul{
-    background:#f5e5e55e;
-    list-style: none;
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('./imagis/exemple/common/img/unnamed.jpg' );
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
     padding: 0;
+}
+
+
+header{
+    font-size: 33px;
+    font-weight: bold;
+    background-color: #d866bf99;
+    text-align: center;
+    padding: 1em;
+    color: mintcream;
+}
+
+img.poza {
+    margin: 0 auto;
+    display: block;
+}
+
+header h1{
+    font-size: 23px;
+}
+
+section.spatiu {
+    padding-top: 2px
+}
+section{
+    background-color: #ffffff55;
+    padding: 5em;
+    margin: 0;
+}
+
+ul{
+    background: #AAAAFF;
+    list-style: none;
+    opacity: 0.9;
+    padding: 1em 0;
 }
 
 ul li{
     padding-left: 20px;
 }
 
-ul span{
-    font-weight: 600;
-    color: #98824b;
+ul article header{
+    font-weight: bold;
+    height: auto;
+    font-size: 23px;
+    padding: 1em;
 }
 
 
@@ -21,12 +61,35 @@ ul li ul{
 ul li ul li{
     margin-bottom: 5px;
     padding: 3px;
-    border: 1px solid #e91ea1;
+    border: 1px solid lightgray;
     margin-left: 40px;
 }
 
-ul li ul li a{
-    color: #922909;
-    text-decoration: none;
+ul li ul li:hover{
+    opacity: 0.5;
+    padding: 5px;
+    margin-bottom: 1px;
+    border: 1px dotted green;
+    padding-left: 35px;
+    text-transform: uppercase;
+}
 
+ul li:hover{
+    opacity: 1;
+    background-color: #eee;
+}
+
+ul li ul li a{
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+
+footer{
+    background-color: #6c0080;
+    color: white;
+    text-align: center;
+    height: 10em;
+    padding-top: 2em;
 }
